@@ -23,6 +23,4 @@ To install the required software, run:
 ## Step 1 | Where Am I?
 First we have to do some reconnaissance. We'll need the gateway IP:  
 > ip r | grep default
-[](https://github.com/andremarqueda1/ARP_Poisoning/blob/main/images/1%20-%20gateway.jpg)
-
- 
+[](https://raw.githubusercontent.com/andremarqueda1/ARP_Poisoning/main/images/1%20-%20gateway.jpg)
