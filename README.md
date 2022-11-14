@@ -55,7 +55,7 @@ A-->C
 ```
 This attack is known as MiTM. Notice how all communications between the Device and the Router passes through our Kali machine. 
 
-## Step Two | ARP Poisoning 
+## Step 2| ARP Poisoning 
 During this process, we are going to trick the router into sending all communications to our machine with Ettercap. Briefly explained: 
 
  - Device 1 has a MAC address: **AA:BB:CC:DD:EE:FF**
@@ -74,7 +74,7 @@ For this example:
 
 What Ettercap is going to show us is the current connections and the information passing through our attacking machine (Note that this may cause a severe slowdown of the involved device)
 
-## Step Three | Network Traffic Capture
+## Step 3| Network Traffic Capture
 
 Now we can run any protocol analyzer such as Wireshark to capture incoming/outgoing traffic.  (Just be sure to select the same interface defined in ettercap)
 
